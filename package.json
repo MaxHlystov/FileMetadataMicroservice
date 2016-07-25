@@ -1,0 +1,30 @@
+{
+  "name": "fmetadata",
+  "version": "1.0.0",
+  "description": "Metadata File Microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxHlystov/FileMetadataMicroservice.git"
+  },
+  "keywords": [
+    "Metadata",
+    "Microservice",
+    "FreeCodeCamp"
+  ],
+  "author": "Maksim Khlystov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxHlystov/FileMetadataMicroservice/issues"
+  },
+  "homepage": "https://github.com/MaxHlystov/FileMetadataMicroservice#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "multer": "^1.1.0",
+    "path": "^0.12.7"
+  }
+}
